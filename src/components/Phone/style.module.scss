@@ -1,0 +1,21 @@
+@import 'style/variable.scss';
+
+.phoneGlass {
+  width: 31rem;
+  background: $color-glass;
+  border: 3px solid #faeea6;
+  border-radius: 2rem;
+  padding: 2rem 2rem;
+  // margin-left: 25rem;
+  // transform: rotate3d(1, 1, -1, 53deg);
+  .phone {
+    background: $color-base;
+    padding-left: 0.5rem;
+    border-radius: 2rem;
+    box-shadow: -3.2rem 3rem 5rem $color-blur;
+    z-index: 10000;
+    img {
+      border-radius: 2rem;
+    }
+  }
+}

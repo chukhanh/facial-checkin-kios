@@ -1,0 +1,106 @@
+@import 'style/variable.scss';
+
+.homeBody {
+  width: 100%;
+  height: 100vh;
+  background: $color-background;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  // padding: 1rem 1rem;
+  .bodyWrapper {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    .phoneGlass {
+      background: $color-glass;
+      border: 3px solid #faeea6;
+      border-radius: 2rem;
+      padding: 2rem 2rem;
+      margin-left: 25rem;
+      transform: rotate3d(1, 1, -1, 53deg);
+      .phone {
+        background: $color-base;
+        padding-left: 0.5rem;
+        border-radius: 2rem;
+        box-shadow: -3.2rem 3rem 5rem $color-blur;
+        z-index: 10000;
+        img {
+          border-radius: 2rem;
+        }
+      }
+    }
+    .quoteButton {
+      text-align: center;
+      margin-left: 30.5rem;
+      .quote {
+        width: 94rem;
+        padding: 1rem 1rem;
+        span {
+          color: $color-base;
+          font-size: $font-size-heading1;
+          font-weight: bold;
+          font-style: normal;
+          animation: fadeIn linear 2s;
+        }
+      }
+      .author {
+        padding: 1rem 1rem;
+        span {
+          color: $color-base;
+          font-size: $font-size-heading3;
+          font-weight: lighter;
+          font-style: normal;
+          animation: fadeIn linear 2s;
+        }
+      }
+      .buttonWrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .button {
+        width: 30rem;
+        background-color: $color-button;
+        border: none;
+        padding: 2rem 4rem;
+        text-align: center;
+        text-decoration: none;
+        cursor: pointer;
+        color: $color-base;
+        font-size: $font-size-heading4;
+        font-weight: bold;
+        font-style: normal;
+        border-radius: 1rem;
+        animation: move linear 1.5s infinite alternate;
+      }
+
+      .btnOnly {
+        margin-top: 10rem;
+      }
+      .btnMargin {
+        margin: 2rem 0;
+      }
+    }
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes move {
+  0% {
+    transform: translateY(0.5rem);
+  }
+  100% {
+    transform: translateY(-0.5rem);
+  }
+}

@@ -1,0 +1,45 @@
+// Screen
+$screen-lg: 1024px;
+$screen-md: 768px;
+$screen-sm: 420px;
+$screen-xs: 375px;
+
+// Color
+
+$color-background: linear-gradient(180deg, #e8bf38 -11.64%, #ffc87c 97.78%);
+$color-button: #ac7c3c;
+$color-base: #ffffff;
+$color-glass: rgba(255, 255, 255, 0.15);
+$color-blur: #608fbf;
+
+// Tranform:
+$tranform-glass: matrix(0.82, -0.3, 0.77, 0.91, 0, 0);
+$tranform-blur: matrix(0.82, -0.3, 0.77, 0.91, 0, 0);
+$tranform-shadow: matrix(0.82, -0.3, 0.77, 0.91, 0, 0);
+
+// Shadow:
+$box-shadow-button: 0px 4px 4px rgba(0, 0, 0, 0.25);
+$box-shadow-box-animation: -10px 50px 40px rgba(111, 158, 201, 0.5);
+
+// border-radius:
+
+$border-radis-button: 10px;
+$border-radis-glass: 20px;
+
+// Font
+$font-size-initial: 24px;
+$font-size-base: 2.4rem !default;
+$font-size-lg: 1.25rem !default;
+$font-size-sm: 0.875rem !default;
+$font-size-larger: 1.1rem;
+$font-size-mini: 0.9rem;
+$font-size-index: 0.7rem;
+
+$font-size-heading1: 4.8rem;
+$font-size-heading2: 3.6rem;
+$font-size-heading3: 2.4rem;
+$font-size-heading4: 2.2rem;
+$font-size-heading5: 2rem;
+$font-size-heading6: 1.8rem;
+
+$font-family-base: lato, sans-serif;

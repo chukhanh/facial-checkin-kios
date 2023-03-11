@@ -1,0 +1,104 @@
+@import 'style/variable.scss';
+
+.homeBody {
+  min-height: 100vh;
+  background: linear-gradient(180deg, #e8bf38 -11.64%, #ffc87c 97.78%);
+
+  .bodyWrapper {
+    width: 743px;
+    height: 383px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20rem;
+    margin: 0 auto;
+
+    h1 {
+      width: 743px;
+
+      font-family: Lato;
+      font-style: normal;
+      font-weight: 900;
+      font-size: 4.8rem;
+      letter-spacing: 0.05em;
+      text-align: center;
+
+      color: #ffffff;
+    }
+
+    .formIdInput {
+      width: 743px;
+      height: 120px;
+      margin: 3rem 0;
+
+      text-align: center;
+      align-items: center;
+      display: flex;
+
+      background: rgba(255, 255, 255, 0.15);
+      border: 0.1rem solid rgba(255, 255, 255, 0.7);
+
+      border-radius: 1rem;
+
+      .idCaption {
+        display: flex;
+        width: 20rem;
+
+        span {
+          font-family: Lato;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 3.6rem;
+          line-height: 1.6rem;
+          align-items: center;
+          margin: auto;
+          /* or 44% */
+
+          color: rgba(5, 4, 4, 0.3);
+        }
+      }
+
+      .idInput {
+        border: none;
+        outline: none;
+        background: none;
+
+        font-family: Lato;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 3.6rem;
+        line-height: 1.6rem;
+        /* or 44% */
+
+        color: rgba(5, 4, 4, 0.3);
+
+        &::placeholder {
+          color: rgba(5, 4, 4, 0.3);
+        }
+      }
+    }
+
+    .registerBtn {
+      display: flex;
+      justify-content: center;
+
+      width: 60rem;
+      height: 10rem;
+      margin: 0 auto;
+
+      align-items: center;
+      text-align: center;
+
+      font-family: Lato;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 3.6rem;
+      line-height: 1.6rem;
+      color: #ffffff;
+
+      border: none;
+      outline: none;
+      border-radius: 1rem;
+      background: #ac7c3c;
+    }
+  }
+}
